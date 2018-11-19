@@ -1,0 +1,7 @@
+script:
+  # Run the tests
+  - g++ main.cpp 
+  - ./a.out 
+  # Release mode (optional)
+  - g++ -DNDEBUG main.cpp 
+  - ./a.out 
